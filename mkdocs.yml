@@ -1,7 +1,7 @@
 site_name: iRizwan
 site_url: https://irizwan.com/
-site_description: iRizwan is Rizwan's personal website about business-aware, data-informed, production-ready software and forward deployment engineering.
-site_author: iRizwan
+site_description: iRizwan is Rizwan Ye's personal website about business-aware, data-informed, production-ready software and documenting the path toward forward deployment engineering.
+site_author: Rizwan Ye
 copyright: Copyright &copy; 2026 iRizwan
 
 theme:
@@ -37,6 +37,9 @@ theme:
 
 nav:
   - Home: index.md
+  - FDE:
+      - Hub: fde/index.md
+      - Definition: fde/definition.md
 
 markdown_extensions:
   - admonition
