@@ -15,9 +15,7 @@ production thinking.
 
 ## Content structure
 
-- Home: beginner-friendly definition and topic hub
-- The Role: what a forward deployment engineer is and how it differs from adjacent roles
-- Beginner Roadmap: project-based 8-stage path using warehouse workload forecasting
-- Skill Stack: business, data, software, cloud, and production capabilities
-- Writing: article ideas and drafts
-- Contact: ways to reach iRizwan
+- Home: the single public page for iRizwan
+- Personal introduction: who Rizwan is and what the site is about
+- Forward deployment engineering: the main technical theme
+- Direction: business-aware, data-informed, production-ready software

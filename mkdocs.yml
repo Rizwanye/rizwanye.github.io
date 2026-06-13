@@ -1,6 +1,6 @@
 site_name: iRizwan
 site_url: https://irizwan.com/
-site_description: What is a forward deployment engineer? A beginner guide to the business, data, software, and AWS skills behind the role.
+site_description: iRizwan is Rizwan's personal website about business-aware, data-informed, production-ready software and forward deployment engineering.
 site_author: iRizwan
 copyright: Copyright &copy; 2026 iRizwan
 
@@ -37,11 +37,6 @@ theme:
 
 nav:
   - Home: index.md
-  - The Role: about.md
-  - Beginner Roadmap: beginner-roadmap.md
-  - Skill Stack: work.md
-  - Writing: notes.md
-  - Contact: contact.md
 
 markdown_extensions:
   - admonition
