@@ -68,3 +68,41 @@ Codex must stop and request page approval if:
 
 Purely technical changes that do not affect rendered page content, navigation,
 metadata, or public messaging can be committed after normal verification.
+
+## FDE Content Architecture
+
+The website must use a clear structure for forward deployment engineering
+content:
+
+- `/` is the personal homepage for `iRizwan`
+- `/fde/` is the main hub page for forward deployment engineering
+- `/fde/<child-topic>/` is a focused article on one keyword or concept
+- `/fde/<child-topic>/<subtopic>/` is used only when a deeper layer is genuinely needed
+
+The hub page must:
+
+- define forward deployment engineering in plain English
+- explain why the topic matters
+- show the topic tree with links to the child pages
+- give beginners a clear starting point
+- include a short personal note connecting the topic to Rizwan and iRizwan
+
+Child pages must:
+
+- own one topic or keyword each
+- avoid duplicating the hub page
+- avoid combining too many unrelated concepts
+- link back to the hub page and to sibling pages where useful
+
+Do not create deeper child pages just to make the tree look larger. Add depth
+only when the concept truly needs it and the page can stand on its own.
+
+Preferred FDE child page themes include:
+
+- what forward deployment engineering is
+- business analysis in FDE
+- data science in FDE
+- software engineering in FDE
+- cloud deployment in FDE
+- beginner roadmap
+- related comparisons only when they are actually written
