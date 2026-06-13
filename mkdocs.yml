@@ -1,0 +1,65 @@
+site_name: Rizwani
+site_description: Rizwani's site about forward deployment engineering, business analysis, data science, software, and cloud delivery
+site_author: Rizwani
+copyright: Copyright &copy; 2026 Rizwani
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Manrope
+    code: JetBrains Mono
+  logo: assets/images/rizwani-mark.svg
+  favicon: assets/images/rizwani-mark.svg
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: slate
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: slate
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - The Role: about.md
+  - Skill Stack: work.md
+  - Writing: notes.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
