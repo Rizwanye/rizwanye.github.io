@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">iRizwan mark</title>
+  <desc id="desc">Geometric monogram mark for the iRizwan personal website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="8" x2="110" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="34" y1="18" x2="94" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7f3ee"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <circle cx="64" cy="31" r="7" fill="url(#stroke)"/>
+  <rect x="57" y="45" width="14" height="42" rx="7" fill="url(#stroke)"/>
+  <path d="M40 92h48" stroke="#ffffff" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
+</svg>
