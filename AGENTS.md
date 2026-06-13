@@ -106,3 +106,24 @@ Preferred FDE child page themes include:
 - cloud deployment in FDE
 - beginner roadmap
 - related comparisons only when they are actually written
+
+## Article Richness
+
+When writing FDE articles, the writing must be rich, specific, and technical.
+
+Use:
+
+- expert-level terminology where it is accurate and appropriate
+- domain-specific language that a serious practitioner would use
+- precise technical nouns instead of vague filler words
+- concrete concepts, failure modes, tradeoffs, and implementation details
+
+Avoid:
+
+- generic motivational language
+- vague filler that could fit any topic
+- over-simplified wording when the subject calls for technical depth
+- buzzword stuffing or inflated phrasing that is not technically grounded
+
+The rule is not to sound flashy. The rule is to sound informed, exact, and
+credible to someone who already understands the domain.
