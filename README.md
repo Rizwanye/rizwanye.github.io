@@ -1,6 +1,11 @@
 # iRizwan
 
-A personal MkDocs site focused on forward deployment engineering.
+A personal MkDocs site focused on answering: what is a forward deployment
+engineer?
+
+The site is written for beginners who want a practical roadmap into the role,
+using business analysis, data science, software engineering, cloud delivery, and
+production thinking.
 
 ## Local setup
 
@@ -10,8 +15,9 @@ A personal MkDocs site focused on forward deployment engineering.
 
 ## Content structure
 
-- Home: definition of the role and the main pillars
-- The Role: what forward deployment engineering means here
-- Skill Stack: business, data, software, and cloud capabilities
+- Home: beginner-friendly definition and topic hub
+- The Role: what a forward deployment engineer is and how it differs from adjacent roles
+- Beginner Roadmap: project-based 8-stage path using warehouse workload forecasting
+- Skill Stack: business, data, software, cloud, and production capabilities
 - Writing: article ideas and drafts
 - Contact: ways to reach iRizwan

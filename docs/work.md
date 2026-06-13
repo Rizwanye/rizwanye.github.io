@@ -1,13 +1,14 @@
 ---
 title: Skill Stack
-description: The skills a forward deployment engineer needs
+description: "The beginner skill stack for a forward deployment engineer: business, data, software, cloud, and production thinking."
 ---
 
 # Skill Stack
 
-This page breaks the role into the core skills that support it. The goal is to
-show how the business side, the data side, the software side, and the cloud
-side fit together.
+This page breaks the forward deployment engineer skill stack into the core
+capabilities that support the role. The goal is to show how the business side,
+the data side, the software side, and the cloud side fit together for a
+beginner.
 
 ## Core skills
 
@@ -52,6 +53,25 @@ side fit together.
 - The data limitations are stated honestly.
 - The implementation is production-ready.
 - The delivery path is simple enough to support.
+- The user feedback loop continues after release.
+
+## Beginner stack
+
+A beginner does not need to master every tool at once. The first version of the
+stack should be enough to complete one realistic project from problem to
+production:
+
+- business analysis for requirements, stakeholders, constraints, and success
+  measures
+- SQL and Python for data inspection, cleaning, and forecasting
+- software engineering basics for version control, tests, APIs, and readable
+  code
+- Docker and AWS for packaging, deployment, and repeatable environments
+- monitoring and documentation so the work can be supported after launch
+
+The [Beginner Roadmap](beginner-roadmap.md) shows how these skills can be
+learned together through a warehouse and logistics workload forecasting
+example.
 
 ## Article template
 

@@ -1,12 +1,14 @@
 ---
 title: Writing
-description: Drafts and ideas about forward deployment engineering
+description: Article ideas for beginners learning what a forward deployment engineer is and how to build the skill set.
 ---
 
 # Writing
 
 This is the page for articles, notes, and drafts about the forward deployment
-engineer role.
+engineer role. The writing should support the main topic cluster: what is a
+forward deployment engineer, what skills the role needs, and how a beginner can
+build toward it.
 
 It can be used for short explanations, opinion pieces, or case-study style
 writing about how business, data, software, and cloud delivery fit together.
@@ -14,11 +16,16 @@ writing about how business, data, software, and cloud delivery fit together.
 ## Draft ideas
 
 - What is a forward deployment engineer?
+- Forward deployment engineer roadmap for beginners
 - Why business analysis matters in technical delivery
 - Why data science is not enough on its own
 - Why software engineering matters even in analytics-led work
 - What cloud skills add to the role
 - What production thinking changes about the job
+- Forward deployment engineer vs business analyst
+- Forward deployment engineer vs data scientist
+- Forward deployment engineer vs software engineer
+- A beginner project: warehouse workload forecasting on AWS
 
 ## Post template
 

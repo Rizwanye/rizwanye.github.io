@@ -1,6 +1,6 @@
 ---
 title: Home
-description: iRizwan's site about forward deployment engineering
+description: What is a forward deployment engineer? A beginner-friendly definition and roadmap by iRizwan.
 hide:
   - navigation
   - toc
@@ -9,15 +9,15 @@ hide:
 <section class="hero">
   <div class="hero__copy">
     <p class="eyebrow">iRizwan</p>
-    <h1>Writing about the forward deployment engineer role.</h1>
+    <h1>What is a forward deployment engineer?</h1>
     <p class="lede">
-      A forward deployment engineer sits between the business, the data, the
-      software, and the cloud. This site is where I explain what that means in
-      practice and what skills the role really needs.
+      A forward deployment engineer is a hybrid business analyst, data
+      scientist, software engineer, and cloud operator who turns business
+      problems into production-ready technical solutions.
     </p>
     <div class="hero__actions">
-      <a class="md-button md-button--primary" href="about/">The Role</a>
-      <a class="md-button" href="work/">Skill Stack</a>
+      <a class="md-button md-button--primary" href="beginner-roadmap/">Beginner Roadmap</a>
+      <a class="md-button" href="about/">The Role</a>
       <a class="md-button" href="notes/">Writing</a>
     </div>
   </div>
@@ -41,6 +41,18 @@ hide:
     </div>
   </aside>
 </section>
+
+## Short answer
+
+A forward deployment engineer, often shortened to FDE, works close to the user
+or business team, understands the operational problem, studies the data, builds
+software around the solution, and helps move that solution into production.
+
+This site is written for beginners who want to understand the role and build a
+practical learning path. My angle is simple: I work across business analysis
+and software delivery while deepening data science and cloud deployment, and I
+care about moving useful ideas into production rather than leaving them as
+isolated analysis.
 
 ## What a forward deployment engineer does
 
@@ -86,13 +98,27 @@ hide:
 - It keeps analysis connected to production impact.
 - It combines stakeholder understanding with engineering discipline.
 - It values shipping something useful over producing isolated work.
+- It gives beginners a concrete way to connect business analysis, data science,
+  software engineering, and cloud skills.
 
 > My working definition: a forward deployment engineer is a business analyst,
 > a data scientist, and a software engineer with cloud skills, all in one role
 > with a production mindset.
 
+## Beginner learning path
+
+The beginner path on this site is project-based. It follows a warehouse and
+logistics workload forecasting example: understand the operation, define the
+data question, clean historical demand data, build a forecast, package the
+logic as software, deploy it with AWS, and monitor whether the system still
+helps the business.
+
+That example matters because it shows the full FDE loop. The work starts with a
+business problem and ends with something people can actually use.
+
 ## Start here
 
+- Read [Beginner Roadmap](beginner-roadmap.md) for the project-based learning path.
 - Read [The Role](about.md) for the plain-English definition.
 - Read [Skill Stack](work.md) for the capability breakdown.
 - Use [Writing](notes.md) for future posts and article drafts.
