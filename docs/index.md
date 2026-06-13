@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Rizwani's site about forward deployment engineering
+description: iRizwan's site about forward deployment engineering
 hide:
   - navigation
   - toc
@@ -8,7 +8,7 @@ hide:
 
 <section class="hero">
   <div class="hero__copy">
-    <p class="eyebrow">Rizwani</p>
+    <p class="eyebrow">iRizwan</p>
     <h1>Writing about the forward deployment engineer role.</h1>
     <p class="lede">
       A forward deployment engineer sits between the business, the data, the

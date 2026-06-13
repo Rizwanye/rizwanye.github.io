@@ -1,8 +1,8 @@
-site_name: Rizwani
-site_url: https://rizwani.com/
-site_description: Rizwani's site about forward deployment engineering, business analysis, data science, software, and cloud delivery
-site_author: Rizwani
-copyright: Copyright &copy; 2026 Rizwani
+site_name: iRizwan
+site_url: https://irizwan.com/
+site_description: iRizwan's site about forward deployment engineering, business analysis, data science, software, and cloud delivery
+site_author: iRizwan
+copyright: Copyright &copy; 2026 iRizwan
 
 theme:
   name: material
@@ -10,8 +10,8 @@ theme:
   font:
     text: Manrope
     code: JetBrains Mono
-  logo: assets/images/rizwani-mark.svg
-  favicon: assets/images/rizwani-mark.svg
+  logo: assets/images/irizwan-mark.svg
+  favicon: assets/images/irizwan-mark.svg
   features:
     - navigation.instant
     - navigation.instant.prefetch

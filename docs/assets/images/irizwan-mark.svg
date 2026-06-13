@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Rizwani mark</title>
-  <desc id="desc">Geometric monogram mark for the Rizwani personal website.</desc>
+  <title id="title">iRizwan mark</title>
+  <desc id="desc">Geometric monogram mark for the iRizwan personal website.</desc>
   <defs>
     <linearGradient id="bg" x1="18" y1="8" x2="110" y2="122" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f766e"/>
@@ -12,6 +12,7 @@
     </linearGradient>
   </defs>
   <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
-  <path d="M36 38h30c12 0 22 7 22 18 0 8-5 14-13 17l14 17h-16L61 76h-9v14H36V38zm15 12v14h15c6 0 10-3 10-7 0-5-4-7-10-7H51z" fill="url(#stroke)"/>
-  <path d="M34 90h60" stroke="#ffffff" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="64" cy="31" r="7" fill="url(#stroke)"/>
+  <rect x="57" y="45" width="14" height="42" rx="7" fill="url(#stroke)"/>
+  <path d="M40 92h48" stroke="#ffffff" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Ways to reach Rizwani about forward deployment engineering
+description: Ways to reach iRizwan about forward deployment engineering
 ---
 
 # Contact
@@ -12,9 +12,9 @@ shipping software to production, this is the place to start.
 ## Contact methods
 
 <div class="contact-grid">
-  <a class="contact-card" href="mailto:hello@rizwani.dev">
+  <a class="contact-card" href="mailto:hello@irizwan.dev">
     <span class="contact-card__label">Email</span>
-    <strong>hello@rizwani.dev</strong>
+    <strong>hello@irizwan.dev</strong>
   </a>
   <a class="contact-card" href="https://www.linkedin.com/">
     <span class="contact-card__label">LinkedIn</span>

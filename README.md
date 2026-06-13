@@ -1,4 +1,4 @@
-# Rizwani
+# iRizwan
 
 A personal MkDocs site focused on forward deployment engineering.
 
@@ -14,4 +14,4 @@ A personal MkDocs site focused on forward deployment engineering.
 - The Role: what forward deployment engineering means here
 - Skill Stack: business, data, software, and cloud capabilities
 - Writing: article ideas and drafts
-- Contact: ways to reach Rizwani
+- Contact: ways to reach iRizwan
