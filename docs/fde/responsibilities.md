@@ -125,11 +125,11 @@ span workflow, data, code, and production as well.
 Many software roles are organized around a backlog, a service boundary, or a
 product surface that is already reasonably well defined.
 
-Forward deployment work often starts earlier and ends later than that. It may
-start in ambiguity, where the problem is not yet clean enough to hand to a
-feature team. It may continue into production support territory, where the real
-test is whether the system changes the workflow without creating more
-operational drag than value.
+[Forward deployment engineering](index.md) often starts earlier and ends later
+than that. It may start in ambiguity, where the problem is not yet clean enough
+to hand to a feature team. It may continue into production support territory,
+where the real test is whether the system changes the workflow without
+creating more operational drag than value.
 
 Many teams now expect FDEs not only to help a customer deploy the product, but
 also to push product learning and sometimes direct product changes back into
@@ -148,7 +148,9 @@ important than a narrow implementation job.
 That is why the role can feel unusually broad from the inside. The engineer is
 not only building a component. The engineer is holding together the decision
 logic, the workflow, the data trust boundaries, the software path, and the
-production consequences.
+production consequences. That breadth is why the [forward deployment engineer
+skill set](skills.md) has to cover discovery, data judgment, software delivery,
+and production ownership together.
 
 ## A practical way to judge the work
 
