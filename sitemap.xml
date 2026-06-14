@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://irizwan.com/</loc>
-         <lastmod>2026-06-13</lastmod>
+         <lastmod>2026-06-14</lastmod>
     </url>
     <url>
          <loc>https://irizwan.com/fde/</loc>
-         <lastmod>2026-06-13</lastmod>
+         <lastmod>2026-06-14</lastmod>
     </url>
     <url>
          <loc>https://irizwan.com/fde/definition/</loc>
-         <lastmod>2026-06-13</lastmod>
+         <lastmod>2026-06-14</lastmod>
+    </url>
+    <url>
+         <loc>https://irizwan.com/fde/responsibilities/</loc>
+         <lastmod>2026-06-14</lastmod>
+    </url>
+    <url>
+         <loc>https://irizwan.com/fde/skills/</loc>
+         <lastmod>2026-06-14</lastmod>
     </url>
 </urlset>

@@ -62,13 +62,22 @@ body {
 }
 
 .md-typeset h1 {
-  font-size: clamp(2.6rem, 6vw, 5rem);
-  line-height: 0.95;
-  margin-bottom: 0.7rem;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+  margin-bottom: 0.65rem;
 }
 
 .md-typeset h2 {
-  margin-top: 2.4rem;
+  font-size: clamp(1.35rem, 2.2vw, 1.9rem);
+  line-height: 1.2;
+  margin-top: 2.1rem;
+  margin-bottom: 0.45rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.1rem;
+  line-height: 1.25;
+  margin-top: 1.6rem;
 }
 
 .md-typeset p,
@@ -76,8 +85,8 @@ body {
 .md-typeset blockquote,
 .md-typeset table {
   color: var(--riz-text);
-  font-size: 1.02rem;
-  line-height: 1.75;
+  font-size: 0.92rem;
+  line-height: 1.62;
 }
 
 .md-typeset a {
@@ -200,7 +209,7 @@ body {
   }
 
   .md-typeset h1 {
-    font-size: clamp(2.25rem, 10vw, 4rem);
+    font-size: clamp(1.9rem, 8vw, 2.8rem);
   }
 }
 

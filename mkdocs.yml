@@ -40,6 +40,8 @@ nav:
   - FDE:
       - Hub: fde/index.md
       - Definition: fde/definition.md
+      - Responsibilities: fde/responsibilities.md
+      - Skills: fde/skills.md
 
 markdown_extensions:
   - admonition
@@ -61,5 +63,22 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
+plugins:
+  - search
+  - optimize:
+      optimize_png: false
+      print_gain: false
+      print_gain_summary: false
+
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Rizwan-Ye
+      name: Rizwan Ye on YouTube
+    - icon: material/school
+      link: https://scholar.google.com/citations?user=K1JBcOsAAAAJ&hl=en
+      name: Rizwan Ye on Google Scholar
+    - icon: material/domain
+      link: https://www.crunchbase.com/person/rizwan-ye
+      name: Rizwan Ye on Crunchbase
