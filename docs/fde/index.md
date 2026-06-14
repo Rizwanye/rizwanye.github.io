@@ -65,11 +65,10 @@ This loop is what separates FDE from a one-off prototype. The work is not only
 to build something that works once. The work is to make the useful pattern
 survive, repeat, and improve.
 
-[Palantir's Architecture Center](https://palantir.com/docs/foundry/architecture-center/overview/)
-describes Forward Deployed Engineering as a way for engineers to get close to
-the problem while feeding what they learn back into core engineering. That
-feedback loop is important: FDE should improve the product, not only create
-custom workarounds.
+Public descriptions of the model often frame forward deployed engineering as a
+way for engineers to get close to the problem while feeding what they learn
+back into core engineering. That feedback loop is important: FDE should
+improve the product, not only create custom workarounds.
 
 ## What is an FDE in business?
 
@@ -95,10 +94,9 @@ spend the morning clarifying a business rule, the afternoon building a data
 pipeline or internal tool, and the next day hardening permissions, logging,
 latency, or deployment configuration.
 
-[Palantir's FDSE profile](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1)
-shows the older enterprise version of this pattern: engineers embedded with
-customers, working across data integration, software configuration, customer
-engagement, and implementation.
+Older enterprise descriptions of the role show the same pattern: engineers
+embedded with customers, working across data integration, software
+configuration, customer engagement, and implementation.
 
 ## Is FDE the same as a solutions engineer, sales engineer, or consultant?
 
@@ -120,9 +118,8 @@ probably not true FDE work.
 
 There is no single clean invention date for the idea.
 
-The modern term became visible in the 2010s, especially through
-[Palantir's `Forward Deployed Software Engineer`
-role](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1).
+The modern term became visible in the 2010s, especially through widely known
+forward deployed software engineering role descriptions.
 The broader pattern is older: customer-facing engineering, consulting, systems
 integration, and solutions engineering all share the same basic instinct of
 working close to the problem.
@@ -153,10 +150,9 @@ FDE is weaker when the product is already simple to self-serve, when the
 customer only needs standard onboarding, or when every deployment creates a
 custom branch that the company cannot maintain.
 
-[Silicon Valley Product Group](https://www.svpg.com/forward-deployed-engineers/)
-frames the model around empowered engineers spending intense time embedded with
-customers. That is useful only when the company can turn field learning into
-better product capability.
+Some product organizations frame the model around empowered engineers spending
+intense time embedded with customers. That is useful only when the company can
+turn field learning into better product capability.
 
 ## How to be an FDE?
 
@@ -223,11 +219,9 @@ For AI-heavy FDE roles, the stack can also include LLM APIs, retrieval
 pipelines, vector databases, evaluation harnesses, prompt/version management,
 and guardrails for reliability, latency, privacy, and cost.
 
-[OpenAI's published FDE openings](https://openai.com/careers/search/?q=FDE)
-show how the AI-era version of the role is framed around customer deployment,
-production systems, and tight feedback loops into platform teams. A
-[representative role description](https://openai.com/careers/forward-deployed-engineer-singapore-singapore/)
-makes the technical bar explicit: production-grade code, customer-facing
+Published AI-era FDE openings show how the role is framed around customer
+deployment, production systems, and tight feedback loops into platform teams.
+The technical bar is explicit: production-grade code, customer-facing
 delivery, and LLM-powered systems that have to survive real operational use.
 
 ## Where should I apply as an FDE?

@@ -14,15 +14,13 @@ losing technical rigor.
 
 That is why the skill profile is hard to reduce to a normal checklist.
 
-According to [Palantir's Forward Deployed Software Engineer role
-description](https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0),
-the baseline includes a strong engineering background, programming ability in
-languages such as Python, Java, C++, TypeScript, or JavaScript, and comfort
-working with technical and non-technical people in changing environments.
-[Anthropic's Applied AI Forward Deployed Engineer role](https://job-boards.greenhouse.io/anthropic/jobs/4985877008)
-pushes the modern AI version further: production LLM experience, agent
-development, evaluation frameworks, deployment at scale, ambiguity, customer
-discovery, and strong communication.
+Published forward deployed engineer role descriptions set a high baseline:
+strong engineering background, programming ability in languages such as
+Python, Java, C++, TypeScript, or JavaScript, and comfort working with
+technical and non-technical people in changing environments. Modern AI-focused
+variants push the role further: production LLM experience, agent development,
+evaluation frameworks, deployment at scale, ambiguity, customer discovery, and
+strong communication.
 
 Those sources point to the same conclusion: the role is not "a business person
 who can code" or "a software engineer who attends customer meetings." It is an
@@ -71,10 +69,10 @@ carry production logic without quietly encoding the wrong business reality.
 Customer discovery can sound soft, but in FDE work it becomes a technical
 skill.
 
-[SVPG describes forward deployed engineers](https://www.svpg.com/forward-deployed-engineers/)
-as technical people who embed with customers to deeply understand their
-environment, problems, and what is required to deliver outcomes. That matters
-because the environment is often part of the system.
+Forward deployed engineers are often described as technical people who embed
+with customers to deeply understand their environment, problems, and what is
+required to deliver outcomes. That matters because the environment is often
+part of the system.
 
 A forward deployment engineer needs to ask questions that expose the real
 workflow: who owns the decision, what happens when the happy path fails, which
@@ -101,11 +99,11 @@ understands the difference between:
 - a production path that should be supported
 - a feature request that should be rejected or simplified
 
-[The Pragmatic Engineer's analysis](https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers)
-notes that FDEs often alternate between customer teams and core product
-engineering teams, and that many companies expect them to contribute back to
-the product rather than only deliver bespoke customer work. That requires
-judgment about when field pain should become platform capability.
+Industry analysis of the role often notes that FDEs alternate between customer
+teams and core product engineering teams, and that many companies expect them
+to contribute back to the product rather than only deliver bespoke customer
+work. That requires judgment about when field pain should become platform
+capability.
 
 ## Production skill is what separates FDE from a prototype role
 

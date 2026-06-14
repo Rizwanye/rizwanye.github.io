@@ -49,6 +49,33 @@ body {
   margin-bottom: 3rem;
 }
 
+.md-search__overlay {
+  background: rgba(246, 241, 232, 0.8);
+}
+
+.md-tooltip__inner,
+.md-tooltip2__inner,
+[role="tooltip"] > .md-tooltip2__inner {
+  background: var(--riz-background) !important;
+  color: var(--riz-text) !important;
+  border: 1px solid var(--riz-border) !important;
+  box-shadow: var(--riz-shadow) !important;
+}
+
+.md-tooltip2--top:before {
+  border-top-color: var(--riz-background) !important;
+}
+
+.md-tooltip2--bottom:before {
+  border-bottom-color: var(--riz-background) !important;
+}
+
+.md-tooltip__inner a,
+.md-tooltip2__inner a,
+[role="tooltip"] > .md-tooltip2__inner a {
+  color: var(--riz-accent) !important;
+}
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {

@@ -15,6 +15,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.instant.preview
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -55,6 +56,15 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - material.extensions.preview:
+      configurations:
+        - targets:
+            include:
+              - index.md
+              - fde/index.md
+              - fde/definition.md
+              - fde/responsibilities.md
+              - fde/skills.md
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:

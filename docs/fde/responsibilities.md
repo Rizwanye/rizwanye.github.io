@@ -21,19 +21,16 @@ system that looked correct in testing is still not trusted in live workflow.
 That is what makes the role distinctive. The work keeps moving between business
 context, data reality, implementation detail, and production friction.
 
-That pattern is not just a personal interpretation. [Palantir's own
-description of its Forward Deployed Software Engineer role](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1)
-emphasizes direct customer embedding, implementation in collaboration with
-end-users, production reviews, maintenance, and the responsibility to send
-field learning back into product development. [SVPG's description of forward
-deployed engineers](https://www.svpg.com/forward-deployed-engineers/) makes a
-similar point from a product perspective: the engineer is embedded to learn the
-real environment deeply enough to discover and deliver an outcome, not just a
-feature.
+That pattern is not just a personal interpretation. Public writing on forward
+deployed roles consistently emphasizes direct customer embedding,
+implementation in collaboration with end-users, production reviews,
+maintenance, and the responsibility to send field learning back into product
+development. The same pattern appears from the product side as well: the
+engineer is embedded to learn the real environment deeply enough to discover
+and deliver an outcome, not just a feature.
 
-[The Pragmatic Engineer's analysis of the role](https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers)
-sharpens the same pattern from another angle: in many companies, the role is
-not only customer-facing. It alternates between embedding with customers and
+Another useful distinction from industry writing is that the role is often not
+only customer-facing. It alternates between embedding with customers and
 working with internal product or platform teams, which is one reason the job
 can feel broader than a normal software role.
 
@@ -48,10 +45,9 @@ stakeholder calls, whiteboarding an operational sequence, reading old tickets,
 checking how teams use spreadsheets or internal tools, and discovering that the
 documented process is cleaner than the real one.
 
-The Pragmatic Engineer describes this early stage as work that can include
-sitting with users, mapping their processes, identifying the highest-value
-opportunity, and prototyping against synthetic or limited data before
-committing to deeper delivery work.
+This early stage can include sitting with users, mapping their processes,
+identifying the highest-value opportunity, and prototyping against synthetic or
+limited data before committing to deeper delivery work.
 
 This part of the role is easy to underestimate. A large amount of poor delivery
 starts with building against a problem statement that was never operationally
@@ -86,12 +82,11 @@ about business rules, access boundaries, trust assumptions, and support
 constraints. The work is technical, but not sealed off from the operating
 environment.
 
-According to Palantir's published FDSE profile, this is one of the clearest
-distinctions from a standard product engineering path: the engineer is not only
-building a reusable capability for an abstract future customer. The engineer is
-trying to make a real system useful for a specific customer under live
-constraints, while still preserving technical rigor such as code review,
-deployability, maintenance, and monitoring.
+One of the clearest distinctions from a standard product engineering path is
+that the engineer is not only building a reusable capability for an abstract
+future customer. The engineer is trying to make a real system useful for a
+specific customer under live constraints, while still preserving technical
+rigor such as code review, deployability, maintenance, and monitoring.
 
 ## Production issues are part of the job, not an afterthought
 
@@ -136,22 +131,19 @@ feature team. It may continue into production support territory, where the real
 test is whether the system changes the workflow without creating more
 operational drag than value.
 
-The Pragmatic Engineer article adds a useful distinction here: many teams now
-expect FDEs not only to help a customer deploy the product, but also to push
-product learning and sometimes direct product changes back into the core
-engineering organization. That is a meaningful difference from roles that stay
-closer to technical consulting or pre-sales solutioning.
+Many teams now expect FDEs not only to help a customer deploy the product, but
+also to push product learning and sometimes direct product changes back into
+the core engineering organization. That is a meaningful difference from roles
+that stay closer to technical consulting or pre-sales solutioning.
 
 The strongest versions of the model also do something more than customer
-delivery. They turn field pain into product learning. SVPG describes this as
-embedding engineers so they can understand the customer environment deeply
-enough to discover the right solution space. Palantir's own material makes the
-same feedback loop visible from the engineering side: what is learned in the
-field can become a reusable product capability rather than staying a one-off
-custom implementation. The Pragmatic Engineer piece strengthens that picture by
-showing how some modern FDE teams explicitly alternate between customer
-embedding and internal product contribution, which makes the role both more
-demanding and more strategically important than a narrow implementation job.
+delivery. They turn field pain into product learning. Strong descriptions of
+the role make the same feedback loop visible from both the product and
+engineering side: what is learned in the field should become a reusable
+capability rather than staying a one-off custom implementation. Some modern
+teams explicitly alternate between customer embedding and internal product
+contribution, which makes the role both more demanding and more strategically
+important than a narrow implementation job.
 
 That is why the role can feel unusually broad from the inside. The engineer is
 not only building a component. The engineer is holding together the decision
