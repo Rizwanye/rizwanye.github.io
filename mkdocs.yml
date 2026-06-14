@@ -38,11 +38,11 @@ theme:
 
 nav:
   - Home: index.md
-  - FDE:
-      - Hub: fde/index.md
-      - Definition: fde/definition.md
-      - Responsibilities: fde/responsibilities.md
-      - Skills: fde/skills.md
+  - Forward Deployment Engineering:
+      - Overview: fde/index.md
+      - Job:
+          - What Is the Job: fde/job/index.md
+          - Skills: fde/job/skills.md
 
 markdown_extensions:
   - admonition
@@ -62,9 +62,8 @@ markdown_extensions:
             include:
               - index.md
               - fde/index.md
-              - fde/definition.md
-              - fde/responsibilities.md
-              - fde/skills.md
+              - fde/job/index.md
+              - fde/job/skills.md
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:

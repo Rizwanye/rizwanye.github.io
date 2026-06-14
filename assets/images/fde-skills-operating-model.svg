@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Forward deployment engineer skill model</title>
+  <desc id="desc">A qualitative model showing the main forward deployment engineer skill families and the production failure each skill helps prevent.</desc>
+  <rect width="960" height="620" rx="28" fill="#f6f1e8"/>
+  <rect x="34" y="34" width="892" height="552" rx="24" fill="#fffaf0" stroke="#d9cbb7" stroke-width="2"/>
+  <text x="68" y="84" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="800" fill="#1d2b2a">FDE Skill Model</text>
+  <text x="68" y="116" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#5b625c">Qualitative synthesis from public role descriptions checked 14 Jun 2026.</text>
+
+  <g font-family="Manrope, Arial, sans-serif">
+    <text x="88" y="160" font-size="13" font-weight="800" fill="#6d756f">SKILL FAMILY</text>
+    <text x="398" y="160" font-size="13" font-weight="800" fill="#6d756f">WHAT IT PROVES</text>
+    <text x="700" y="160" font-size="13" font-weight="800" fill="#6d756f">FAILURE PREVENTED</text>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif">
+    <rect x="68" y="184" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="211" r="11" fill="#0f766e"/>
+    <text x="120" y="207" font-size="16" font-weight="800" fill="#1d2b2a">Business discovery</text>
+    <text x="120" y="225" font-size="12" fill="#5b625c">workflow, owner, decision, constraint</text>
+    <text x="398" y="216" font-size="14" fill="#1d2b2a">Turns vague requests into buildable requirements</text>
+    <text x="700" y="216" font-size="14" font-weight="800" fill="#8f4627">Wrong problem</text>
+
+    <rect x="68" y="252" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="279" r="11" fill="#bf6b3b"/>
+    <text x="120" y="275" font-size="16" font-weight="800" fill="#1d2b2a">Data diagnosis</text>
+    <text x="120" y="293" font-size="12" fill="#5b625c">joins, freshness, lineage, edge cases</text>
+    <text x="398" y="284" font-size="14" fill="#1d2b2a">Tests whether data is safe for production logic</text>
+    <text x="700" y="284" font-size="14" font-weight="800" fill="#8f4627">Unsafe automation</text>
+
+    <rect x="68" y="320" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="347" r="11" fill="#29445c"/>
+    <text x="120" y="343" font-size="16" font-weight="800" fill="#1d2b2a">Software implementation</text>
+    <text x="120" y="361" font-size="12" fill="#5b625c">APIs, services, tools, pipelines</text>
+    <text x="398" y="352" font-size="14" fill="#1d2b2a">Turns useful logic into maintainable code</text>
+    <text x="700" y="352" font-size="14" font-weight="800" fill="#8f4627">Throwaway prototype</text>
+
+    <rect x="68" y="388" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="415" r="11" fill="#6a7b49"/>
+    <text x="120" y="411" font-size="16" font-weight="800" fill="#1d2b2a">Cloud and operation</text>
+    <text x="120" y="429" font-size="12" fill="#5b625c">identity, secrets, logs, rollout</text>
+    <text x="398" y="420" font-size="14" fill="#1d2b2a">Makes software survive outside the laptop</text>
+    <text x="700" y="420" font-size="14" font-weight="800" fill="#8f4627">Fragile deployment</text>
+
+    <rect x="68" y="456" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="483" r="11" fill="#8b5e34"/>
+    <text x="120" y="479" font-size="16" font-weight="800" fill="#1d2b2a">AI evaluation</text>
+    <text x="120" y="497" font-size="12" fill="#5b625c">evals, prompts, tools, guardrails</text>
+    <text x="398" y="488" font-size="14" fill="#1d2b2a">Tests model behavior before and after launch</text>
+    <text x="700" y="488" font-size="14" font-weight="800" fill="#8f4627">Untrusted model output</text>
+
+    <rect x="68" y="524" width="824" height="54" rx="16" fill="#f3eadc" stroke="#dfd1bd"/>
+    <circle cx="96" cy="551" r="11" fill="#7c6f64"/>
+    <text x="120" y="547" font-size="16" font-weight="800" fill="#1d2b2a">Product feedback</text>
+    <text x="120" y="565" font-size="12" fill="#5b625c">patterns, playbooks, reusable capability</text>
+    <text x="398" y="556" font-size="14" fill="#1d2b2a">Turns field learning into product leverage</text>
+    <text x="700" y="556" font-size="14" font-weight="800" fill="#8f4627">One-off custom work</text>
+  </g>
+</svg>

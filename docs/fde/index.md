@@ -24,10 +24,10 @@ FDE is a production-oriented delivery model.
 It combines business framing, data judgment, software implementation, and cloud
 deployment around one operational outcome.
 
-The detailed definition is covered in [what is a forward deployment
-engineer?](definition.md), but the practical
-idea is simple: the work must connect the user problem, the data, the software,
-and the deployment path.
+The deeper article on the [job of a forward deployment engineer](job/index.md)
+covers the role, workflow, responsibilities, skills, and production boundary in
+one place. The practical idea is simple: the work must connect the user
+problem, the data, the software, and the deployment path.
 
 The work does not stop at analysis or code. It ends when the system is live,
 useful, and supportable.
@@ -64,6 +64,10 @@ The FDE operating loop is a practical cycle:
 This loop is what separates FDE from a one-off prototype. The work is not only
 to build something that works once. The work is to make the useful pattern
 survive, repeat, and improve.
+
+The full job is where that operating loop becomes concrete: decision,
+workflow, data, software, deployment, production feedback, and reusable product
+learning.
 
 Public descriptions of the model often frame forward deployed engineering as a
 way for engineers to get close to the problem while feeding what they learn
@@ -184,6 +188,10 @@ The important part is not being the deepest specialist in every area. The
 important part is knowing enough to connect the areas without losing ownership
 of the outcome.
 
+For a deeper breakdown, the [forward deployment engineer skills](job/skills.md)
+page separates the skills into business discovery, data diagnosis, software
+implementation, deployment, AI evaluation, and product judgment.
+
 ## What makes someone bad at FDE?
 
 A weak FDE treats the role as vague technical support, pre-sales theatre, or
@@ -267,8 +275,7 @@ and production owner all hold together under real operating conditions.
 
 That is why the strongest FDE skill is not coding, analysis, or stakeholder
 management in isolation. It is the ability to move between them without losing
-accountability for the outcome. The deeper definition is covered in [what is a
-forward deployment engineer?](definition.md).
+accountability for the outcome.
 
 <script type="application/ld+json">
 {

@@ -78,8 +78,8 @@ Forward deployment engineering is one way to describe the mix of skills I am
 writing about. It is the label I use for work that starts with a business
 problem, uses data honestly, and ends with software that can run in production.
 The [forward deployment engineering](fde/index.md) section is where I break
-that idea down in more detail, including the deeper [definition](fde/definition.md)
-of the role and operating model.
+that idea down in more detail, including the deeper [job of a forward
+deployment engineer](fde/job/index.md).
 
 That is why the topic matters here. It gives a name to the kind of work I want
 to understand and explain, but it does not replace the personal side of the

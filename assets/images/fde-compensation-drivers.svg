@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Compensation drivers for forward deployment engineer roles</title>
+  <desc id="desc">A qualitative chart showing the responsibilities that tend to explain high compensation in forward deployment engineer roles.</desc>
+  <rect width="960" height="560" rx="28" fill="#f6f1e8"/>
+  <rect x="34" y="34" width="892" height="492" rx="24" fill="#fffaf0" stroke="#d9cbb7" stroke-width="2"/>
+  <text x="68" y="86" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="800" fill="#1d2b2a">What the Salary Premium Is Pricing</text>
+  <text x="68" y="118" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#5b625c">Qualitative synthesis from public FDE role descriptions: the premium follows accountability, not the title alone.</text>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="15" fill="#1d2b2a">
+    <text x="68" y="172" font-weight="800">Production ownership</text>
+    <text x="68" y="225" font-weight="800">Customer ambiguity</text>
+    <text x="68" y="278" font-weight="800">AI and model deployment</text>
+    <text x="68" y="331" font-weight="800">Data and system diagnosis</text>
+    <text x="68" y="384" font-weight="800">Product feedback leverage</text>
+    <text x="68" y="437" font-weight="800">Travel and onsite intensity</text>
+  </g>
+
+  <g stroke="#e0d6c8" stroke-width="1">
+    <line x1="330" y1="145" x2="330" y2="455"/>
+    <line x1="438" y1="145" x2="438" y2="455"/>
+    <line x1="546" y1="145" x2="546" y2="455"/>
+    <line x1="654" y1="145" x2="654" y2="455"/>
+    <line x1="762" y1="145" x2="762" y2="455"/>
+    <line x1="870" y1="145" x2="870" y2="455"/>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif">
+    <rect x="330" y="151" width="513" height="28" rx="14" fill="#0f766e"/>
+    <text x="858" y="171" font-size="13" font-weight="800" fill="#134e4a">highest</text>
+
+    <rect x="330" y="204" width="486" height="28" rx="14" fill="#bf6b3b"/>
+    <text x="831" y="224" font-size="13" font-weight="800" fill="#8f4627">very high</text>
+
+    <rect x="330" y="257" width="475" height="28" rx="14" fill="#29445c"/>
+    <text x="820" y="277" font-size="13" font-weight="800" fill="#1b2f42">very high</text>
+
+    <rect x="330" y="310" width="443" height="28" rx="14" fill="#6a7b49"/>
+    <text x="788" y="330" font-size="13" font-weight="800" fill="#44522d">high</text>
+
+    <rect x="330" y="363" width="432" height="28" rx="14" fill="#8b5e34"/>
+    <text x="777" y="383" font-size="13" font-weight="800" fill="#684322">high</text>
+
+    <rect x="330" y="416" width="324" height="28" rx="14" fill="#7c6f64"/>
+    <text x="669" y="436" font-size="13" font-weight="800" fill="#5b5148">variable</text>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="12" fill="#6d756f">
+    <text x="330" y="480">lower accountability</text>
+    <text x="746" y="480">higher accountability</text>
+  </g>
+  <text x="68" y="510" font-family="Manrope, Arial, sans-serif" font-size="12" fill="#6d756f">Interpretation: strong FDE compensation is attached to production software delivery under customer, data, AI, deployment, and adoption pressure.</text>
+</svg>

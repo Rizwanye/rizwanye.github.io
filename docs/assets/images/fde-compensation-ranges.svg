@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Public salary ranges for forward deployment engineer roles</title>
+  <desc id="desc">A range chart showing public United States salary signals for Palantir, OpenAI, and Anthropic forward deployed engineering roles checked on 14 June 2026.</desc>
+  <rect width="960" height="560" rx="28" fill="#f6f1e8"/>
+  <rect x="34" y="34" width="892" height="492" rx="24" fill="#fffaf0" stroke="#d9cbb7" stroke-width="2"/>
+  <text x="68" y="86" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="800" fill="#1d2b2a">Public FDE Salary Signals</text>
+  <text x="68" y="118" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#5b625c">USD ranges from public employer postings, checked 14 Jun 2026. Equity and incentives vary by employer.</text>
+
+  <line x1="260" y1="430" x2="840" y2="430" stroke="#786f61" stroke-width="1.5"/>
+  <g font-family="Manrope, Arial, sans-serif" font-size="13" fill="#5b625c">
+    <text x="250" y="456">$100k</text>
+    <text x="366" y="456">$150k</text>
+    <text x="482" y="456">$200k</text>
+    <text x="598" y="456">$250k</text>
+    <text x="714" y="456">$300k</text>
+    <text x="830" y="456">$350k</text>
+  </g>
+  <g stroke="#e0d6c8" stroke-width="1">
+    <line x1="260" y1="144" x2="260" y2="430"/>
+    <line x1="376" y1="144" x2="376" y2="430"/>
+    <line x1="492" y1="144" x2="492" y2="430"/>
+    <line x1="608" y1="144" x2="608" y2="430"/>
+    <line x1="724" y1="144" x2="724" y2="430"/>
+    <line x1="840" y1="144" x2="840" y2="430"/>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif">
+    <text x="68" y="158" font-size="16" font-weight="800" fill="#1d2b2a">Palantir FDSE</text>
+    <text x="68" y="181" font-size="13" fill="#6d756f">New York, base estimate</text>
+    <rect x="341.2" y="142" width="150.8" height="26" rx="13" fill="#0f766e"/>
+    <circle cx="341.2" cy="155" r="8" fill="#134e4a"/>
+    <circle cx="492" cy="155" r="8" fill="#134e4a"/>
+    <text x="505" y="160" font-size="14" font-weight="800" fill="#134e4a">$135k-$200k</text>
+
+    <text x="68" y="230" font-size="16" font-weight="800" fill="#1d2b2a">OpenAI FDE</text>
+    <text x="68" y="253" font-size="13" fill="#6d756f">NYC, plus equity</text>
+    <rect x="403.8" y="214" width="273.8" height="26" rx="13" fill="#bf6b3b"/>
+    <circle cx="403.8" cy="227" r="8" fill="#8f4627"/>
+    <circle cx="677.6" cy="227" r="8" fill="#8f4627"/>
+    <text x="690" y="232" font-size="14" font-weight="800" fill="#8f4627">$162k-$280k</text>
+
+    <text x="68" y="302" font-size="16" font-weight="800" fill="#1d2b2a">OpenAI FDSWE</text>
+    <text x="68" y="325" font-size="13" fill="#6d756f">San Francisco, plus equity</text>
+    <rect x="457.2" y="286" width="324.8" height="26" rx="13" fill="#29445c"/>
+    <circle cx="457.2" cy="299" r="8" fill="#1b2f42"/>
+    <circle cx="782" cy="299" r="8" fill="#1b2f42"/>
+    <text x="676" y="278" font-size="14" font-weight="800" fill="#1b2f42">$185k-$325k</text>
+
+    <text x="68" y="374" font-size="16" font-weight="800" fill="#1d2b2a">Anthropic FDE</text>
+    <text x="68" y="397" font-size="13" fill="#6d756f">Applied AI, annual salary</text>
+    <rect x="492" y="358" width="232" height="26" rx="13" fill="#6a7b49"/>
+    <circle cx="492" cy="371" r="8" fill="#44522d"/>
+    <circle cx="724" cy="371" r="8" fill="#44522d"/>
+    <text x="737" y="376" font-size="14" font-weight="800" fill="#44522d">$200k-$300k</text>
+  </g>
+
+  <text x="68" y="500" font-family="Manrope, Arial, sans-serif" font-size="12" fill="#6d756f">Interpretation: these are public posting signals, not universal salary bands. Total compensation can include equity, bonuses, benefits, or incentives not shown as salary.</text>
+</svg>
