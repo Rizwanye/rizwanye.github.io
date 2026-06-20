@@ -217,6 +217,26 @@ body {
   padding: 0.75rem 1.1rem;
 }
 
+.md-typeset .admonition.abstract {
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-left: 0.18rem solid var(--riz-accent);
+  border-radius: 14px;
+  background: rgba(15, 118, 110, 0.055);
+  box-shadow: 0 10px 30px rgba(22, 29, 38, 0.06);
+  color: var(--riz-text);
+}
+
+.md-typeset .admonition.abstract > p {
+  margin: 0.65rem 0;
+  color: var(--riz-text);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.abstract {
+  border-color: rgba(98, 209, 193, 0.22);
+  border-left-color: #62d1c1;
+  background: rgba(98, 209, 193, 0.09);
+}
+
 @media (max-width: 960px) {
   .md-typeset .hero {
     grid-template-columns: 1fr;

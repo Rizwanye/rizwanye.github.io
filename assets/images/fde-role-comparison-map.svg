@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Forward deployment engineer role comparison map</title>
+  <desc id="desc">A qualitative comparison showing how forward deployment engineering differs from full-stack engineering, solutions engineering, implementation engineering, customer engineering, and solutions architecture.</desc>
+  <rect width="960" height="560" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a">Where FDE differs from nearby roles</text>
+  <text x="60" y="90" font-family="Manrope, Arial, sans-serif" font-size="15" fill="#475569">Qualitative synthesis from current role descriptions checked 16 June 2026</text>
+
+  <line x1="150" y1="458" x2="850" y2="458" stroke="#334155" stroke-width="2"/>
+  <line x1="150" y1="458" x2="150" y2="130" stroke="#334155" stroke-width="2"/>
+  <text x="365" y="508" font-family="Manrope, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Customer and business-context ownership</text>
+  <text x="36" y="310" font-family="Manrope, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a" transform="rotate(-90 36 310)">Production code ownership</text>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="13" fill="#64748b">
+    <text x="145" y="486" text-anchor="middle">low</text>
+    <text x="850" y="486" text-anchor="middle">high</text>
+    <text x="116" y="462" text-anchor="end">low</text>
+    <text x="116" y="136" text-anchor="end">high</text>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="14" font-weight="700">
+    <circle cx="345" cy="190" r="58" fill="#0f766e" opacity="0.9"/>
+    <text x="345" y="186" text-anchor="middle" fill="#ffffff">Full-stack</text>
+    <text x="345" y="205" text-anchor="middle" fill="#ffffff">engineer</text>
+
+    <circle cx="690" cy="175" r="66" fill="#1d4ed8" opacity="0.92"/>
+    <text x="690" y="162" text-anchor="middle" fill="#ffffff">Forward</text>
+    <text x="690" y="181" text-anchor="middle" fill="#ffffff">deployment</text>
+    <text x="690" y="200" text-anchor="middle" fill="#ffffff">engineer</text>
+
+    <circle cx="670" cy="332" r="52" fill="#7c3aed" opacity="0.88"/>
+    <text x="670" y="328" text-anchor="middle" fill="#ffffff">Solutions</text>
+    <text x="670" y="347" text-anchor="middle" fill="#ffffff">engineer</text>
+
+    <circle cx="520" cy="276" r="52" fill="#b45309" opacity="0.9"/>
+    <text x="520" y="272" text-anchor="middle" fill="#ffffff">Implementation</text>
+    <text x="520" y="291" text-anchor="middle" fill="#ffffff">engineer</text>
+
+    <circle cx="610" cy="390" r="48" fill="#be123c" opacity="0.88"/>
+    <text x="610" y="386" text-anchor="middle" fill="#ffffff">Customer</text>
+    <text x="610" y="405" text-anchor="middle" fill="#ffffff">engineer</text>
+
+    <circle cx="420" cy="356" r="50" fill="#475569" opacity="0.9"/>
+    <text x="420" y="352" text-anchor="middle" fill="#ffffff">Solutions</text>
+    <text x="420" y="371" text-anchor="middle" fill="#ffffff">architect</text>
+  </g>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="13" fill="#334155">
+    <rect x="610" y="92" width="248" height="42" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+    <text x="734" y="117" text-anchor="middle">High code + high field ownership</text>
+    <rect x="224" y="106" width="238" height="42" rx="6" fill="#ccfbf1" stroke="#5eead4"/>
+    <text x="343" y="131" text-anchor="middle">High code + lower customer ownership</text>
+    <rect x="552" y="430" width="242" height="42" rx="6" fill="#f3e8ff" stroke="#c4b5fd"/>
+    <text x="673" y="455" text-anchor="middle">High customer context + lower code ownership</text>
+  </g>
+</svg>

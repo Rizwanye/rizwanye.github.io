@@ -9,6 +9,11 @@ Forward deployment engineering is the practice of taking a real business
 problem, turning it into a technical system, and carrying that system through
 deployment, feedback, and production support.
 
+A forward deployment engineer sits between engineering, product strategy, and
+field execution. The role closes the last-mile gap between platform capability
+and real-world outcomes by working inside the customer environment, where
+requirements are discovered through use, not gathered from a distance.
+
 ## What does FDE stand for?
 
 FDE usually stands for `forward deployment engineer` or `forward deployment
@@ -17,12 +22,24 @@ engineering`, depending on whether you mean the person or the working model.
 In practice, people use it to describe the role, the delivery style, or the
 team working close to the customer problem.
 
+The phrase borrows from the military idea of forward deployment: placing
+assets close to the operational front instead of keeping them far from the
+action. In software, the same idea describes engineers embedded close to the
+customer's operating environment, where the real workflow, data, constraints,
+and adoption problems are visible.
+
 ## What is FDE?
 
 FDE is a production-oriented delivery model.
 
 It combines business framing, data judgment, software implementation, and cloud
 deployment around one operational outcome.
+
+One useful taxonomy defines an FDE as a software engineer employed by a product
+company who is embedded with a client organization to deploy, customize, and
+co-evolve the company's technology while keeping a direct feedback loop to the
+product team. That product-company alignment is important: the FDE is not the
+client's employee and not a third-party consultant.
 
 The deeper article on the [job of a forward deployment engineer](job/index.md)
 covers the role, workflow, responsibilities, skills, and production boundary in
@@ -74,6 +91,19 @@ way for engineers to get close to the problem while feeding what they learn
 back into core engineering. That feedback loop is important: FDE should
 improve the product, not only create custom workarounds.
 
+The best version of the model treats customer work as embedded product
+discovery. Engineers work close enough to users to see the workflow, data,
+constraints, risks, and opportunities directly, then turn repeated field
+patterns into reusable product capability.
+
+Some companies split that field model into two complementary roles. An Echo or
+deployment strategist owns domain understanding, stakeholder alignment, and
+the first high-value use case. A Delta or forward deployed engineer builds the
+rough but correct technical path in the field. The first version may be a
+gravel road: specific, imperfect, and useful enough to prove the outcome. The
+platform team then has to pave the reusable pattern so the next deployment is
+faster, cheaper, and more maintainable.
+
 ## What is an FDE in business?
 
 In business, an FDE is someone who can sit between stakeholders and technical
@@ -118,6 +148,11 @@ accountable for whether the system actually works after go-live?
 If the work ends at a demo, proof of concept, slide deck, or handoff, it is
 probably not true FDE work.
 
+For the broader role-by-role distinction, the [FDE comparison guide](job/comparisons/index.md)
+separates forward deployment engineering from full-stack engineering, software
+engineering, solutions engineering, customer engineering, implementation
+engineering, solutions architecture, AI engineering, and consulting.
+
 ## When did FDE start?
 
 There is no single clean invention date for the idea.
@@ -157,6 +192,35 @@ custom branch that the company cannot maintain.
 Some product organizations frame the model around empowered engineers spending
 intense time embedded with customers. That is useful only when the company can
 turn field learning into better product capability.
+
+The model breaks when the field team keeps building bespoke work without a
+cadence for core product teams to absorb what was learned. A healthy FDE
+operation measures outcome value, contract expansion, and product leverage:
+how much value each field team can deliver, and how quickly the same outcome
+can be repeated for the next customer.
+
+The underlying tension is specificity versus scale. Pure SaaS products, APIs,
+and platforms scale well but often sacrifice context. Traditional consulting
+and systems integration can be deeply specific but are expensive and hard to
+repeat. FDE sits between those poles: specific enough to work in a real client
+environment, but tied closely enough to the product company that the learning
+can improve the platform.
+
+AI-driven development makes that middle ground more important. When code
+generation gets cheaper, the scarce resource is no longer only developer
+hours. It is architectural judgment: deciding what should be built, which
+constraints matter, how the system should be structured, and how the result
+will survive the customer's real workflow.
+
+This is especially true for LLMs. A language model is general-purpose in the
+abstract, but deployment-specific in practice. Making it reliable for one
+enterprise task means connecting it to the right data, permissions, tools,
+workflow, evaluation loop, and production controls.
+
+That creates the modern deployment gap. The technology can be more capable
+than the organization is ready to absorb, so the distance between raw model
+capability and deployed business value can widen instead of shrink. FDE work
+exists in that gap.
 
 ## How to be an FDE?
 

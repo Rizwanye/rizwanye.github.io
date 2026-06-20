@@ -11,7 +11,7 @@ theme:
     text: Manrope
     code: JetBrains Mono
   logo: assets/images/irizwan-mark.svg
-  favicon: assets/images/irizwan-mark.svg
+  favicon: assets/images/favicon.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -42,6 +42,7 @@ nav:
       - Overview: fde/index.md
       - Job:
           - What Is the Job: fde/job/index.md
+          - Comparisons: fde/job/comparisons/index.md
           - Skills: fde/job/skills.md
 
 markdown_extensions:
@@ -62,6 +63,7 @@ markdown_extensions:
             include:
               - index.md
               - fde/index.md
+              - fde/job/comparisons/index.md
               - fde/job/index.md
               - fde/job/skills.md
   - pymdownx.snippets
@@ -85,9 +87,15 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Rizwan-Ye
       name: Rizwan Ye on YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rizwanye
+      name: Rizwan Ye on GitHub
     - icon: material/school
       link: https://scholar.google.com/citations?user=K1JBcOsAAAAJ&hl=en
       name: Rizwan Ye on Google Scholar
     - icon: material/domain
       link: https://www.crunchbase.com/person/rizwan-ye
       name: Rizwan Ye on Crunchbase
+    - icon: material/printer-3d
+      link: https://www.printables.com/@RizwanYe_4583879
+      name: Rizwan Ye on Printables
