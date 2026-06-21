@@ -6,6 +6,7 @@ copyright: Copyright &copy; 2026 iRizwan
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
   font:
     text: Manrope
@@ -83,6 +84,9 @@ plugins:
 
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-FKKMH5E4LV
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Rizwan-Ye
