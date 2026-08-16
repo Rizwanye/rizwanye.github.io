@@ -99,10 +99,11 @@ patterns into reusable product capability.
 Some companies split that field model into two complementary roles. An Echo or
 deployment strategist owns domain understanding, stakeholder alignment, and
 the first high-value use case. A Delta or forward deployed engineer builds the
-rough but correct technical path in the field. The first version may be a
-gravel road: specific, imperfect, and useful enough to prove the outcome. The
-platform team then has to pave the reusable pattern so the next deployment is
-faster, cheaper, and more maintainable.
+rough but correct technical path in the field.
+
+The first version may be a gravel road: specific, imperfect, and useful enough
+to prove the outcome. The platform team then has to pave the reusable pattern
+so the next deployment is faster, cheaper, and more maintainable.
 
 ## What is an FDE in business?
 
@@ -235,6 +236,10 @@ That usually means:
 - learning enough cloud and deployment practice to ship and support the result
 - staying close to the user problem instead of working in isolation
 
+The detailed [how to become a forward deployed engineer](careers/index.md)
+guide turns that into a practical preparation path: skill gaps, portfolio
+proof, AI deployment practice, resume evidence, and interview readiness.
+
 ## What skills does an FDE need?
 
 An FDE needs enough range to move from an ambiguous business problem to a
@@ -313,6 +318,11 @@ Look for titles such as:
 The right role will usually involve direct customer or stakeholder contact,
 technical implementation, and a production outcome.
 
+When preparing applications, the [forward deployed engineer resume](careers/resume/index.md)
+page explains how to show operating problems, technical systems, data
+constraints, and production outcomes without turning the resume into a generic
+tool list.
+
 ## What should a beginner build to prove FDE skill?
 
 A beginner should build a project that shows the full path from business
@@ -331,6 +341,11 @@ A strong project includes:
 The portfolio signal is not the size of the app. The signal is whether the work
 shows business analysis, data judgment, software delivery, and production
 thinking in one coherent system.
+
+That same evidence should also prepare you for [forward deployed engineer
+interview questions](careers/interview/index.md), where the strongest answers
+usually connect discovery, data, implementation, deployment, and product
+feedback rather than treating each topic as a separate lane.
 
 A useful way to judge forward deployment engineering is this: the work is not
 complete when the analysis is correct or the prototype works. It is complete
