@@ -1,6 +1,6 @@
 ---
 title: Home
-description: iRizwan is Rizwan Ye's personal website about building business-aware, data-informed, production-ready software and learning in public.
+description: iRizwan helps beginners understand AWS Cloud through real-life use cases, interactive diagrams, and practical learning.
 hide:
   - navigation
   - toc
@@ -11,9 +11,10 @@ hide:
     <p class="eyebrow">Rizwan Ye's personal website</p>
     <h1>iRizwan</h1>
     <p class="lede" id="what-i-write-about">
-      I write about building business-aware, data-informed, production-ready
-      software. This is an open-source record of who I am, what I am building,
-      and what I am learning in public.
+      I am building a place to learn Amazon Web Services through real-life use
+      cases, interactive diagrams, and practical challenges. The goal is to
+      make AWS Cloud easier to understand before the service names and
+      architecture become overwhelming.
     </p>
     <div class="hero__actions">
       <a class="md-button md-button--primary" href="#who-i-am">Who I Am</a>
