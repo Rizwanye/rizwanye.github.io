@@ -2,34 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://irizwan.com/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-16</lastmod>
     </url>
     <url>
-         <loc>https://irizwan.com/fde/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/careers/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/careers/interview/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/careers/resume/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/job/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/job/skills/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://irizwan.com/fde/job/comparisons/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <loc>https://irizwan.com/aws-cloud/</loc>
+         <lastmod>2026-08-16</lastmod>
     </url>
 </urlset>

@@ -1,6 +1,6 @@
-site_name: AWS Cloud
+site_name: iRizwan
 site_url: https://irizwan.com/
-site_description: iRizwan is Rizwan Ye's personal website about business-aware, data-informed, production-ready software and documenting the path toward forward deployment engineering.
+site_description: iRizwan is Rizwan Ye's personal website about business-aware, data-informed, production-ready software and learning in public.
 site_author: Rizwan Ye
 copyright: Copyright &copy; 2026 iRizwan
 
@@ -39,16 +39,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Forward Deployment Engineering:
-      - Overview: fde/index.md
-      - Careers:
-          - How to Become: fde/careers/index.md
-          - Interview Questions: fde/careers/interview/index.md
-          - Resume: fde/careers/resume/index.md
-      - Job:
-          - What Is the Job: fde/job/index.md
-          - Comparisons: fde/job/comparisons/index.md
-          - Skills: fde/job/skills.md
+  - AWS Cloud: aws-cloud/index.md
 
 markdown_extensions:
   - admonition
@@ -67,13 +58,7 @@ markdown_extensions:
         - targets:
             include:
               - index.md
-              - fde/index.md
-              - fde/careers/index.md
-              - fde/careers/interview/index.md
-              - fde/careers/resume/index.md
-              - fde/job/comparisons/index.md
-              - fde/job/index.md
-              - fde/job/skills.md
+              - aws-cloud/index.md
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
